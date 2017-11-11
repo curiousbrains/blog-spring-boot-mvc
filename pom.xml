@@ -76,15 +76,13 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 			<plugin>
-				<groupId>com.google.appengine</groupId>
+				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>appengine-maven-plugin</artifactId>
-				<version>1.9.58</version>
+				<version>1.3.0</version>
 				<configuration>
-					<project>
-						blog-spring-boot-mvc
-					</project>
+					<project>blog-spring-boot-mvc</project>
 				</configuration>
 			</plugin>
 	
